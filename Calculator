@@ -1,0 +1,21 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+	int a = 1;
+	cin >> a;
+	int b = 2;
+	cin >> b;
+
+	cout << "sum = " << a + b << endl;
+	cout << "subtraction = " << a - b << endl;
+	cout << "division = " << a / b << endl;
+	cout << "multiplicaion = " << a * b << endl;
+	cout << "remainder = " << a % b << endl;
+	cout << a << endl;
+	cout << b << endl;
+	
+	system("pause");
+	return 0;
+}
